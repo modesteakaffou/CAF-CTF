@@ -51,8 +51,34 @@ just go to this link : [Cipher identifier dcode](https://www.dcode.fr/cipher-ide
 
 ![Screenshot from 2023-04-18 15-38-19](https://user-images.githubusercontent.com/94288725/232829573-578f6237-3366-4004-9c53-500ff17ab130.png)
 
+Let's calm down for a moment, the cipher identifier tool gives us possibilities but we must know that it is not 100% reliable. Before trying to test the proposals, let's try to think a little. We have a second file called key_file.txt and in this file there are values used in the RSA encryption calculations. We can understand by this that we have to calculate and find the key. But what is this key used for? What are the encodings or ciphers that use a key? 
 
+Here is a list of 10 historical encryption algorithms that use a key:
 
+- Caesar's cipher
+- Vigenère's cipher
+- Playfair's cipher
+- Hill's cipher
+- Gronsfeld's cipher
+- Porta's cipher
+- The Beaufort cipher
+- The Rail Fence cipher
+- The Scytale cipher
+- The Polibius cipher
+ 
+These historical encryption algorithms have been widely used in the past to protect the confidentiality of messages. They are all based on the use of a key to encrypt and decrypt data. However, they are now considered weak in terms of security and have been replaced by stronger and more complex algorithms for the protection of sensitive data.
+
+Historical encryption algorithms have been replaced by modern encryption algorithms that offer stronger security and better data protection. Some of the most widely used modern encryption algorithms include:
+
+- AES (Advanced Encryption Standard)
+- RSA (Rivest-Shamir-Adleman)
+- DES (Data Encryption Standard)
+- 3DES (Triple DES)
+- Blowfish
+- Twofish
+- RC4 (Rivest Cipher 4)
+- Camellia
+- IDEA (International Data Encryption Algorithm)
 
 
 
