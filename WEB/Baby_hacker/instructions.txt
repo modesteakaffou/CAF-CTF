@@ -1,6 +1,0 @@
-I don't know how header works. Can you find it?
-
-http://51.178.18.146:40000/chall1_086ecf773bbd273e9005d731f743df5a/
-
-The format of the flag is CAF_{FLAG}
-
