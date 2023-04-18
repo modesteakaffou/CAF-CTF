@@ -79,7 +79,40 @@ Historical encryption algorithms have been replaced by modern encryption algorit
 - RC4 (Rivest Cipher 4)
 - Camellia
 - IDEA (International Data Encryption Algorithm)
+ 
+Let's start by calculating the key and then we will test each algorithm to see which one gives us the flag. According to the information contained in the file key_file.txt, we have N (modulo), C (encrypted message), E (public key), so we must calculate M (decrypted message) who is our key. For more understanding about RSA calculations, visit this link: [RSA wikipédia](https://fr.wikipedia.org/wiki/Chiffrement_RSA)
+
+There is a way to calculate the plaintext message quite quickly using the dcode tool with RSA cipher. In this part, there is everything we need. From here we can calculate D (the inverse of E), do the decomposition of N into PxQ and even calculate PHI(N). Anyway, here is the link: 
+[dcode RSA Cipher](https://www.dcode.fr/rsa-cipher)
+
+![Screenshot from 2023-04-18 21-46-55](https://user-images.githubusercontent.com/94288725/232913778-031f9114-7087-46a5-854f-8d0a7f97b38d.png)
+
+ Here is the message in clear text: <strong>104097099107101100</strong>
+This looks like a decimal value. This is how to process this information. Let's identify the encoding with the cipher identifier tool of dcode. Here is the result:
+ 
+
+![Screenshot from 2023-04-18 22-07-08](https://user-images.githubusercontent.com/94288725/232915963-c469bfcf-afbd-4fb0-9ba3-78dd5ed837e8.png)
+
+So we can see that dcode offers us Ascii decode, let's try to see :
+ 
+
+![Screenshot from 2023-04-18 22-09-27](https://user-images.githubusercontent.com/94288725/232916288-f4f350b6-7997-43fe-bdcf-48aedb596315.png)
+
+The key is : <strong> hacked </strong>
+
+Now that we have found the key, let's try to decrypt the message we found earlier: JAH_{I0Y_F4U_H4EU3H_WO3_W0TVH}
+As I said earlier, there are several encryption algorithms that use a key. We will test several algorithms at the same time with an online tool. Here is the link: [Multidecoder](https://www.cachesleuth.com/multidecoder/)
 
 
+![Screenshot from 2023-04-18 22-22-20](https://user-images.githubusercontent.com/94288725/232918204-62c91710-c1f9-4eeb-93e3-1aaaed91d838.png)
 
+
+![Screenshot from 2023-04-18 22-23-20](https://user-images.githubusercontent.com/94288725/232918318-445110ae-95df-4654-889a-f01cb6ef7d64.png)
+
+![Screenshot from 2023-04-18 22-24-24](https://user-images.githubusercontent.com/94288725/232918659-113a2b41-7629-417f-ad7e-025fcc086f26.png)
+
+
+ The flag is : <string> CAF_{Y0U_C4N_H4CK3D_TH3_W0RLD} </string>
+ 
+ Thanks.
 
