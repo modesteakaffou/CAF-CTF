@@ -47,7 +47,7 @@ Now let's try to identify the encoding or encryption used to obtain this result.
 
 there is no result even with the intensive mode you can test. We will use dcode with the cipher identifier tool to determine the encoding or encryption used. It should be remembered that the cipher identifier tool of the dcode platform is not 100% reliable. It can happen that it does not detect anything. Let's try it anyway.
 
-just go to this link : <a href="https://www.dcode.fr/cipher-identifier" alt="cipher identifier dcode" target="_blank")
+just go to this link : [Cipher identifier dcode](https://www.dcode.fr/cipher-identifier)
 
 ![Screenshot from 2023-04-18 15-38-19](https://user-images.githubusercontent.com/94288725/232829573-578f6237-3366-4004-9c53-500ff17ab130.png)
 
