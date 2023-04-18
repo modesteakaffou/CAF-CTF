@@ -1,0 +1,5 @@
+You work for a Reputed OSINT company. One day you got a mail from your boss telling you: “You have given a screenshot from a popular Web seris. You have to run proper open source investigation to find out the name of the web seris,episode number, episode name, IMDB rating of that specific episode.’’
+
+Flag format: CAF_{WebserisName_SeasonNumber_EpisodNumber_EpisodName_IMDBrating}
+
+Note: All the characters of the Web seris name and EpisodName will be in Uppercase. IF the episode name is multiple words then separate them with underscore( _ ). Suppose the episode name is HELLO WE ARE HERE. Then the EpisodName on the flag will be: {HELLO_WE_ARE_HERE}
