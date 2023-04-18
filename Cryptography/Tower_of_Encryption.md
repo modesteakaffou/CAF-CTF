@@ -26,6 +26,33 @@ n = 1000000016000000063
 e = 23
 c = 471055156725181012
 ```
+Let's copy the text from the challenge_file.txt file and paste it into cyberchef then use the <Magic> tool to be able to identify the encoding used.
+
+just find cyberchef here : [Cyberchef](https://gchq.github.io/CyberChef/#recipe=Magic(3,false,false,''))
+
+![Screenshot from 2023-04-18 14-31-06](https://user-images.githubusercontent.com/94288725/232810065-421463c9-492f-40db-a0a3-3d317524c2a3.png)
+
+We can see that cyberchef proposes base32 as encoding. But this does not allow to fall directly on the flag. Let's look again below, we can see base32 spotted 3 times but there again, we don't have the flag. And if we were to spot the base32 decoding several times. Let's remember that the instruction mentions the word <<several times>>. Let's test to see.
+
+
+![Screenshot from 2023-04-18 14-42-54](https://user-images.githubusercontent.com/94288725/232813342-d59a0691-36f6-424e-95db-d2cfd91d9bee.png)
+
+I used the base32 encoding 8 times in a row to finally find something that looks like the flag. But it's not the flag yet. The flag is in the format CAF_{something}
+
+So here is what we found: <strong> JAH_{I0Y_F4U_H4EU3H_WO3_W0TVH} </strong>
+
+Now let's try to identify the encoding or encryption used to obtain this result. Let's try it with the magic tool of Cyberchef.
+
+![Screenshot from 2023-04-18 15-23-32](https://user-images.githubusercontent.com/94288725/232825529-2002ebbf-aeb9-439c-8caf-81a75045e126.png)
+
+there is no result even with the intensive mode you can test. We will use dcode with the cipher identifier tool to determine the encoding or encryption used. It should be remembered that the cipher identifier tool of the dcode platform is not 100% reliable. It can happen that it does not detect anything. Let's try it anyway.
+
+just go to this link : <a href="https://www.dcode.fr/cipher-identifier" alt="cipher identifier dcode" target="_blank")
+
+![Screenshot from 2023-04-18 15-38-19](https://user-images.githubusercontent.com/94288725/232829573-578f6237-3366-4004-9c53-500ff17ab130.png)
+
+
+
 
 
 
