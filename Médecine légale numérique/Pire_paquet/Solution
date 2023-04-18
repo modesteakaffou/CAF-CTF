@@ -1,3 +1,0 @@
-Pour la résolution de ce challenge nous avons utilisé Wireshark, cet outil d’analyse de packet et de trame nous permet d’afficher les statistiques des communications effectuées.
-Vous allez dans wireshark, statistique, hiérarchie des protocoles et le pourcentage des paquets malformés est affiché.
-Flag : CAF_{4.2}
