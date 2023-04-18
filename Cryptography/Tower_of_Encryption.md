@@ -7,8 +7,8 @@
 
 #### Resources
 
-Download [challenge_file.txt](challenge_file.txt "download") <br>
-Download [key_file.txt](key_file.txt "download") <br>
+Download  [challenge_file.txt](https://github.com/modesteakaffou/CAF_CTF/files/11259627/challenge_file.txt "download") <br>
+Download  [key_file.txt](https://github.com/modesteakaffou/CAF_CTF/files/11259631/key_file.txt "download") <br>
 
 ## Solution
 
