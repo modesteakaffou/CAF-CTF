@@ -1,0 +1,8 @@
+Text inside challenge I warn You : 
+
+(1)  what is the malware name detected by McAfee that was bonded in the exe?
+(2)  Find out the established malicious connection ASN Owner name?
+
+Flag Format:  CAF{answer1answer2}
+
+Note that: dont run the exe file in your main machine. This is a malicious file and setted for the ctf task.
