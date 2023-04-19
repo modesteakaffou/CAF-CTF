@@ -48,6 +48,8 @@ When faced with a big problem, break it down into smaller problems. And so we ca
 
 There are also small wordlists (< 5 million passwords) which are also called SecLists. The advantage is that with these wordlists, the bruteforce is faster and therefore we can test several SecLists.
 
-In this tutorial, we will obviously not test all the wordlists. I will choose a SecList in which I am sure to find the password. The purpose of this tutorial is to show you how to do a bruteforce. So the SecList we use is called merged.  The wordlist in question will be present in the current writeup folder.
+In this tutorial, we will obviously not test all the wordlists. I will choose a SecList in which I am sure to find the password. The purpose of this tutorial is to show you how to do a bruteforce. So the SecList we use is called merged.  The wordlist in question is there : [SecList Merged](https://github.com/danielmiessler/SecLists/blob/601038eb4ea18c97177b43a757286d3c8a815db8/Passwords/merged.txt.tar.gz)
+
+
 
 
