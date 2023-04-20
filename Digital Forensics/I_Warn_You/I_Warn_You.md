@@ -56,7 +56,7 @@ When we click on the RELATION menu we see the IP address of the network and the 
 
 Finally we get our flag:
 
-CAF_{Artemis!0B80BC9C1E4B_MICROSOFT-CORP-MSN-AS-BLOCK}
+<strong> CAF_{Artemis!0B80BC9C1E4B_MICROSOFT-CORP-MSN-AS-BLOCK} </strong>
 
 Thanks.
 
